@@ -1,0 +1,16 @@
+** mmdr
+A small client for TL;DR pages.
+
+** Usage
+**** Examples
+#+begin_src sh
+  # mmdr <command>
+  $ mmdr apt
+
+  # mmdr -l <lang_code> <command>
+  $ mmdr -l de apt
+
+  # mmdr -l <lang_code> -s <sys_name> <command>
+  $ mmdr -l en -s freebsd df
+  $ mmdr -l nl -s freebsd df
+#+end_src
